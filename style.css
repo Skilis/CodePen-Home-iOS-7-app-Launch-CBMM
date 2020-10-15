@@ -1,0 +1,83 @@
+.iphone {
+  border-radius: 20px;
+  border: 10px solid #000;
+  background: #000;
+  width: 320px;
+  height: 584px;
+  padding: 60px 0;
+}
+
+.home {
+  display: block;
+  border: 2px solid #999;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 10px auto;
+}
+
+.status-bar {
+  height: 20px;
+}
+
+.springboard {
+  position: relative;
+  background: transparent url(http://cdn.cultofmac.com/wp-content/uploads/2013/06/Screen-Shot-2013-06-10-at-3.52.24-PM.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  width: 320px;
+  height: 584px;
+}
+
+
+
+.app-list {
+  margin: 0 12px;
+  padding: 0;  
+}
+
+.app-bar {
+  margin: 19px 12px 0;
+  padding: 0;
+}
+
+.app-list li,
+.app-bar li {
+  display: inline-block;
+  list-style-type: none;
+  width: 62px;
+  height: 62px;
+  
+  margin: 5px 12px 20px 0; 
+
+  padding: 0;
+}
+
+.app-list li:nth-child(4n),
+.app-bar li:nth-child(4n)  {
+  margin-right: 0;
+}
+
+li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.app-launcher {
+  position: absolute;
+  background: rgba(255, 255, 255, 0);
+  
+  top: 0;  
+  right: 100%;
+  bottom: 100%;
+  left: 0;
+  
+
+}
+
+.app-launcher.animated {
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
